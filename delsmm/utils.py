@@ -9,10 +9,6 @@ from numpy import pi
 import timeit
 import random
 import sys
-try:
-    import resource
-except ImportError:
-    resource = None
 
 from contextlib import contextmanager
 
